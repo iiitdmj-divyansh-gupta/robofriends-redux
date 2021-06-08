@@ -5,7 +5,7 @@ import React from 'react';
 // children -> every props object has chilren 
 
 const Scroll = (props) => {
-	console.log(props);
+	// console.log(props);
 	return (
 		// double curly braces: javascript expression and within that we are returning an object
 		<div style={{overflowY: 'scroll', border: '2px solid black', height:'700px'}}> 
